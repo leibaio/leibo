@@ -1,0 +1,94 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": false,
+	"editor.guides.bracketPairs": "active",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.tabSize": 2,
+	"files.associations": {
+		"*.env.*": "dotenv"
+	},
+	"git.enableSmartCommit": true,
+	"gutterpreview.paths": {
+		"@": "/src",
+		"~@": "/src"
+	},
+	"material-icon-theme.activeIconPack": "angular",
+	"material-icon-theme.files.associations": {},
+	"material-icon-theme.folders.associations": {
+		"enum": "typescript",
+		"enums": "typescript",
+		"store": "context",
+		"stores": "context",
+		"composable": "hook",
+		"composables": "hook",
+		"directive": "tools",
+		"directives": "tools",
+		"business": "core",
+		"request": "api",
+		"adapter": "middleware"
+	},
+	"path-intellisense.mappings": {
+		"@": "${workspaceFolder}/src",
+		"~@": "${workspaceFolder}/src",
+	},
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontWeight": 500,
+	"terminal.integrated.tabs.enabled": true,
+	"unocss.root": "src",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Dracula Soft",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+  // 文件隐藏
+	"files.exclude": {
+    "**/.browserslistrc": true,
+    "**/.editorconfig": true,
+    "**/.env": true,
+    "**/.env.local": true,
+    "**/.eslintignore": true,
+    "**/.eslintrc.js": true,
+    "**/.gitattributes": true,
+    "**/.gitignore": false,
+    "**/.stylelintrc.js": true,
+    "**/babel.config.js": true,
+    "**/jsconfig.json": true,
+    "**/LICENSE": true,
+    "**/plopfile.js": true,
+    "**/prettier.config.js": true,
+    "**/webstorm.config.js": true
+  },
+  "cSpell.words": [
+    "leibo"
+  ],
+}
